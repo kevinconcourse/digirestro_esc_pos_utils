@@ -1,0 +1,23 @@
+name: digirestro_esc_pos_utils
+description: "A new Flutter package project."
+version: 0.0.1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hex: ^0.2.0
+  gbk_codec: ^0.4.0
+  image: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - packages/digirestro_esc_pos_utils/resources/capabilities.json
